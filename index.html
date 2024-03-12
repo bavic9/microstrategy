@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="relative mx-auto lg:px-12 px-3 py-6">
+        <!-- Flex container -->
+        <div class="flex items-center justify-between pt-2">
+            <div class="flex items-center gap-40">
+                <!-- Logo -->
+                <div class="">
+                    <h1 class="md:text-4xl text-2xl font-bold font-poppins italic text-red-700 tracking-tighter">MicroStrategy</h1>
+                </div>
+                <!-- Menu Items -->
+                <div class="hidden space-x-6 lg:flex">
+                    <a href="#" class="text-xl font-poppins font-semibold text-gray-600 px-8">Instruction</a>
+                    <a href="#" class="text-xl font-poppins font-semibold text-gray-600 px-8">Rules</a>
+                    <a href="#" class="text-xl font-poppins font-semibold text-gray-600 px-8">Join Us</a>
+                </div>
+            </div>
+          <!-- Button -->
+          <button class="hidden md:block py-3 px-6 text-white rounded-full text-2xl font-poppins bg-red-700 border-2 shadow-lg border-red-700 hover:bg-transparent hover:text-red-700">
+            Connect wallet
+          </button>
+  
+          <!-- Hamburger Icon -->
+          <button
+            id="menu-btn"
+            class="block hamburger lg:hidden focus:outline-none px-6 mt-2"
+          >
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+  
+        <!-- Mobile Menu -->
+        <div class="lg:hidden">
+          <div
+            id="menu"
+            class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-10 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+          >
+            <a href="#" class="text-xl font-poppins font-semibold text-gray-600 px-8">Instruction</a>
+            <a href="#" class="text-xl font-poppins font-semibold text-gray-600 px-8">Rules</a>
+            <a href="#" class="text-xl font-poppins font-semibold text-gray-600 px-8">Join Us</a>
+            <button class="md:hidden py-3 px-6 text-white rounded-full text-xl font-poppins bg-red-700 border-2 shadow-lg border-red-700 hover:bg-transparent hover:text-red-700">
+                Connect wallet
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <section id="hero">
+        <!-- Flex Container -->
+        <div
+          class=" lg:w-[70%] flex flex-col-reverse lg:mt-20 mt-10 items-center px-6 mx-auto space-y-10 lg:space-y-0 lg:flex-row">
+          <!-- Left item -->
+          <div class="flex flex-col my-24 lg:w-[60%] space-y-2">
+            <h1
+              class="max-w-md leading-relaxed text-4xl font-bold text-center lg:text-5xl lg:text-left font-poppins py-4"
+            >
+              Double your <span class="text-red-700">cryptocurrency</span> right now!
+            </h1>
+            <p class="max-w-sm text-center text-gray-600 lg:text-left text-xl mx-auto lg:mx-0 py-4">
+              To double your cryptocurrency, you need to connect your wallet to the site
+            </p>
+            <div class="flex gap-4 items-center justify-center lg:justify-start pt-4">
+                <button class=" py-3 px-6 text-white rounded-full text-xl font-poppins bg-red-700 border-2 shadow-xl border-red-700 hover:bg-transparent hover:text-red-700">
+                    Connect wallet
+                </button>
+                <button class=" py-3 px-6 rounded-full text-xl font-poppins bg-transparent text-red-700 border-2 shadow-xl border-red-700 hover:bg-red-700 hover:text-white">
+                    Learn More
+                </button>
+            </div>
+            <div class="flex justify-center lg:justify-start">
+              <a
+                href="#"
+                class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+                >Get Started</a
+              >
+            </div>
+            <div class="flex items-center justify-center lg:justify-start gap-4">
+                <div class="flex flex-col items-start px-4 border-r-4 border-red-600 h-10 text-center">
+                    <h1 class="text-xl font-poppins font-bold">25k+</h1>
+                    <p>Users</p>
+                </div>
+                <div class="flex flex-col items-start px-4 border-r-4 border-red-600 h-10 text-center">
+                    <h1 class="text-xl font-poppins font-bold">80k+</h1>
+                    <p>Transactions</p>
+                </div>
+                <div class="flex flex-col items-start px-4  h-10 text-center">
+                    <h1 class="text-xl font-poppins font-bold">1,2k+</h1>
+                    <p>Online</p>
+                </div>
+            </div>
+          </div>
+          <!-- Image -->
+          <div class="lg:w-1/2 px-4">
+            <img src="img/hero.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <script src="script.js"></script>
+</body>
+</html>
