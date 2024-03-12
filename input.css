@@ -52,3 +52,7 @@
   .open .hamburger-bottom {
     transform: rotate(-45deg) translateY(6px) translate(-6px);
   }
+
+  img{
+    box-shadow: 0 0 10px 10px #FBFBFB inset;
+  }

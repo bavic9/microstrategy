@@ -716,6 +716,11 @@ video {
   border-color: rgb(185 28 28 / var(--tw-border-opacity));
 }
 
+.bg-\[\#FBFBFB\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 251 251 / var(--tw-bg-opacity));
+}
+
 .bg-red-700{
   --tw-bg-opacity: 1;
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
@@ -728,15 +733,6 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\]{
-  background-color: ;
-}
-
-.bg-\[\#FBFBFB\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(251 251 251 / var(--tw-bg-opacity));
 }
 
 .p-3{
@@ -917,6 +913,10 @@ video {
 
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+img{
+  box-shadow: 0 0 10px 10px #FBFBFB inset;
 }
 
 .hover\:bg-red-700:hover{
